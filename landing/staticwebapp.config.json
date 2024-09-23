@@ -5,16 +5,10 @@
       "serve": "/index.html",
       "statusCode": 200
     }
-  ],
-"navigationFallback": {
-      "rewrite": "index.html",
-      "exclude": ["/images/*.{png,jpg,gif}", "/css/*", "/images/*", "/js/*"]
-    },
-"responseOverrides": {     
-      "404": {
-        "rewrite": "/index.html",
-        "statusCode": 200
-      }
+  ], 
+    "navigationFallback": {
+      "rewrite": "/index.html",
+      "exclude": ["/images/*.{png,jpg,gif}", "/css/*"]
     },
 "mimeTypes": {
         ".json": "text/json",
